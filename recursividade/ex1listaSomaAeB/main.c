@@ -6,7 +6,15 @@ função sucessor definida como:
 2 return x+1;
 3 }
 */
-
-int main(){
+int sucessor(int x){
+ return x+1;
+ }
+ int soma(int a , int b){
+    if ( b>0)
+    return a + sucessor(b - 1); 
+ }
+int main(){    
+    int x = soma(20 , 5);    
+    printf("%d \n",x);
     return 0;
 }

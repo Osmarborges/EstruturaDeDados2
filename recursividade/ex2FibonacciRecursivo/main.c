@@ -1,7 +1,6 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
-//utilizando memoizaçao
 
 uint64_t fib(int n)
 {
@@ -36,7 +35,7 @@ uint64_t ffib(int n)
 
 int main(int argc, char** argv)
 {
-    int n;
+    int n ;
     n = atoi(argv[1]);
     printf("f(%ld) = %ld\n",n, ffib(n));
     return EXIT_SUCCESS;
